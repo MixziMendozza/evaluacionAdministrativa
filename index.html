@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html wtx-context="0DFBE0F2-4D0F-463F-836C-3B0020D9FBC0" lang="en"><head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+    <title>Bootstrap Simple Registration Form</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> 
+    <style type="text/css">
+        body{
+            color: rgb(0, 0, 0);
+            background: #b5c8e2;
+            font-family: 'Roboto', sans-serif;
+        }
+        .form-control{
+            height: 40px;
+            box-shadow: none;
+            color: #969fa4;
+        }
+        .form-control:focus{
+            border-color: #5cb85c;
+        }
+        .form-control, .btn{        
+            border-radius: 3px;
+        }
+        .signup-form{
+            width: 650px;
+            margin: 0 auto;
+            padding: 30px 0;
+        }
+        .signup-form h2{
+            color: #636363;
+            margin: 0 0 15px;
+            position: relative;
+            text-align: center;
+        }
+        .signup-form h2:before, .signup-form h2:after{
+            content: "";
+            height: 2px;
+            width: 30%;
+            background: #d4d4d4;
+            position: absolute;
+            top: 50%;
+            z-index: 2;
+        }	
+        .signup-form h2:before{
+            left: 0;
+        }
+        .signup-form h2:after{
+            right: 0;
+        }
+        .signup-form .hint-text{
+            color: #999;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+        .signup-form form{
+            color: #999;
+            border-radius: 3px;
+            margin-bottom: 15px;
+            background: #f2f3f7;
+            box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+            padding: 30px;
+        }
+        .signup-form .form-group{
+            margin-bottom: 20px;
+        }
+        .signup-form input[type="checkbox"]{
+            margin-top: 3px;
+        }
+        .signup-form .btn{        
+            font-size: 16px;
+            font-weight: bold;		
+            min-width: 140px;
+            outline: none !important;
+        }
+        .signup-form .row div:first-child{
+            padding-right: 10px;
+        }
+        .signup-form .row div:last-child{
+            padding-left: 10px;
+        }    	
+        .signup-form a{
+            color: #fff;
+            text-decoration: underline;
+        }
+        .signup-form a:hover{
+            text-decoration: none;
+        }
+        .signup-form form a{
+            color: #5cb85c;
+            text-decoration: none;
+        }	
+        .signup-form form a:hover{
+            text-decoration: underline;
+        }  
+    </style>
+    </head>
+
+    <header >
+        <center>
+            
+        <h1><img src="logoP.svg" width="30" height="30" alt=""> <b> EVALUACION ADMINISTRATIVA</b>
+        <img src="logoP.svg" width="30" height="30" alt=""> </h1></center>
+    </header>
+
+
+    <body>
+    <div class="signup-form">
+        <form action="/examples/actions/confirmation.php" method="post" wtx-context="6BF00249-20A1-4FFF-9EC9-D2497F18A8B4">
+            <h2>Evaluar</h2>
+            
+           
+            
+            <div class="pregresp">
+                <div class="pregunta">1.- Hace que los demás se sienta orgullosos de trabajar con Usted.<br />
+                </div>
+                <div class="respuestas">
+                  <input type="radio" name="preg1" value="1" /> Nunca<br />
+                  <input type="radio" name="preg1" value="2" /> Rara vez<br />
+                  <input type="radio" name="preg1" value="3" /> A veces<br />
+                  <input type="radio" name="preg1" value="3" /> A menudo<br />
+                  <input type="radio" name="preg1" value="3" /> siempre<br />
+                </div>
+                <div class="pregunta">2.- Le dedica tiempo a enseñar, orientar y a desarrollar las fortalezas de sus colaboradores.<br />
+                </div>
+                <div class="respuestas">
+                  <input type="radio" name="preg1" value="1" /> Nunca<br />
+                  <input type="radio" name="preg1" value="2" /> Rara vez<br />
+                  <input type="radio" name="preg1" value="3" /> A veces<br />
+                  <input type="radio" name="preg1" value="3" /> A menudo<br />
+                  <input type="radio" name="preg1" value="3" /> siempre<br />
+                </div>
+                <div class="pregunta">3.- Trata a los demás como personas y no sólo como integrantes de un grupo.<br />
+                </div>
+                <div class="respuestas">
+                  <input type="radio" name="preg1" value="1" /> Nunca<br />
+                  <input type="radio" name="preg1" value="2" /> Rara vez<br />
+                  <input type="radio" name="preg1" value="3" /> A veces<br />
+                  <input type="radio" name="preg1" value="3" /> A menudo<br />
+                  <input type="radio" name="preg1" value="3" /> siempre<br />
+                </div>
+                <div class="pregunta">4.- Se muestra confiable y seguro o segura.<br />
+                </div>
+                <div class="respuestas">
+                  <input type="radio" name="preg1" value="1" /> Nunca<br />
+                  <input type="radio" name="preg1" value="2" /> Rara vez<br />
+                  <input type="radio" name="preg1" value="3" /> A veces<br />
+                  <input type="radio" name="preg1" value="3" /> A menudo<br />
+                  <input type="radio" name="preg1" value="3" /> siempre<br />
+                </div>
+                <div class="pregunta">5.- Genera ideas originales con aplicaciones prácticas para eficientar el trabajo.<br />
+                </div>
+                <div class="respuestas">
+                  <input type="radio" name="preg1" value="1" /> Nunca<br />
+                  <input type="radio" name="preg1" value="2" /> Rara vez<br />
+                  <input type="radio" name="preg1" value="3" /> A veces<br />
+                  <input type="radio" name="preg1" value="3" /> A menudo<br />
+                  <input type="radio" name="preg1" value="3" /> siempre<br />
+                </div>
+                <div class="pregunta">6.- Sugiere a los demás nuevas formas de hacer su trabajo.<br />
+                </div>
+                <div class="respuestas">
+                  <input type="radio" name="preg1" value="1" /> Nunca<br />
+                  <input type="radio" name="preg1" value="2" /> Rara vez<br />
+                  <input type="radio" name="preg1" value="3" /> A veces<br />
+                  <input type="radio" name="preg1" value="3" /> A menudo<br />
+                  <input type="radio" name="preg1" value="3" /> siempre<br />
+                </div>
+                <div class="pregunta">7.- Motiva a los demás en tener confianza en sí mismos<br />
+                </div>
+                <div class="respuestas">
+                  <input type="radio" name="preg1" value="1" /> Nunca<br />
+                  <input type="radio" name="preg1" value="2" /> Rara vez<br />
+                  <input type="radio" name="preg1" value="3" /> A veces<br />
+                  <input type="radio" name="preg1" value="3" /> A menudo<br />
+                  <input type="radio" name="preg1" value="3" /> siempre<br />
+                </div>
+                <div class="pregunta"> 8.- Busca la manera de desarrollar las capacidades de los demás.<br />
+                </div>
+                <div class="respuestas">
+                  <input type="radio" name="preg1" value="1" /> Nunca<br />
+                  <input type="radio" name="preg1" value="2" /> Rara vez<br />
+                  <input type="radio" name="preg1" value="3" /> A veces<br />
+                  <input type="radio" name="preg1" value="3" /> A menudo<br />
+                  <input type="radio" name="preg1" value="3" /> siempre<br />
+                </div>
+                <div class="pregunta">9.- Hace que el clima laboral sea agradable<br />
+                </div>
+                <div class="respuestas">
+                  <input type="radio" name="preg1" value="1" /> Nunca<br />
+                  <input type="radio" name="preg1" value="2" /> Rara vez<br />
+                  <input type="radio" name="preg1" value="3" /> A veces<br />
+                  <input type="radio" name="preg1" value="3" /> A menudo<br />
+                  <input type="radio" name="preg1" value="3" /> siempre<br />
+                </div>
+                <div class="pregunta">10.- Asume coherencia entre lo que dice y hace<br />
+                </div>
+                <div class="respuestas">
+                  <input type="radio" name="preg1" value="1" /> Nunca<br />
+                  <input type="radio" name="preg1" value="2" /> Rara vez<br />
+                  <input type="radio" name="preg1" value="3" /> A veces<br />
+                  <input type="radio" name="preg1" value="3" /> A menudo<br />
+                  <input type="radio" name="preg1" value="3" /> siempre<br />
+                </div>
+                <div class="pregunta">11.- Guia a sus subordinados.<br />
+                </div>
+                <div class="respuestas">
+                  <input type="radio" name="preg1" value="1" /> Nunca<br />
+                  <input type="radio" name="preg1" value="2" /> Rara vez<br />
+                  <input type="radio" name="preg1" value="3" /> A veces<br />
+                  <input type="radio" name="preg1" value="3" /> A menudo<br />
+                  <input type="radio" name="preg1" value="3" /> siempre<br />
+                </div>
+                <div class="pregunta">12.- Supervisa que el área cuente con el material necesario para realizar sus actividades<br />
+                </div>
+                <div class="respuestas">
+                  <input type="radio" name="preg1" value="1" /> Nunca<br />
+                  <input type="radio" name="preg1" value="2" /> Rara vez<br />
+                  <input type="radio" name="preg1" value="3" /> A veces<br />
+                  <input type="radio" name="preg1" value="3" /> A menudo<br />
+                  <input type="radio" name="preg1" value="3" /> siempre<br />
+                </div>
+                <div class="pregunta">13.- Le interesa conocer las necesidades que tiene el grupo de trabajo.<br />
+                </div>
+                <div class="respuestas">
+                  <input type="radio" name="preg1" value="1" /> Nunca<br />
+                  <input type="radio" name="preg1" value="2" /> Rara vez<br />
+                  <input type="radio" name="preg1" value="3" /> A veces<br />
+                  <input type="radio" name="preg1" value="3" /> A menudo<br />
+                  <input type="radio" name="preg1" value="3" /> siempre<br />
+                </div>
+                <div class="pregunta">14.- Cuenta con los conocimientos, habilidades necesarias para cubrir el puesto.<br />
+                </div>
+                <div class="respuestas">
+                  <input type="radio" name="preg1" value="1" /> Nunca<br />
+                  <input type="radio" name="preg1" value="2" /> Rara vez<br />
+                  <input type="radio" name="preg1" value="3" /> A veces<br />
+                  <input type="radio" name="preg1" value="3" /> A menudo<br />
+                  <input type="radio" name="preg1" value="3" /> siempre<br />
+                </div>
+                <div class="pregunta">15.- Ha tenido alguna queja o roce en la relación con su trabajo.<br />
+                </div>
+                <div class="respuestas">
+                  <input type="radio" name="preg1" value="1" /> Nunca<br />
+                  <input type="radio" name="preg1" value="2" /> Rara vez<br />
+                  <input type="radio" name="preg1" value="3" /> A veces<br />
+                  <input type="radio" name="preg1" value="3" /> A menudo<br />
+                  <input type="radio" name="preg1" value="3" /> siempre<br />
+                </div>
+                <div class="pregunta">16.- Aborda constructiva y adecuadamente el desempeño.<br />
+                </div>
+                <div class="respuestas">
+                  <input type="radio" name="preg1" value="1" /> Nunca<br />
+                  <input type="radio" name="preg1" value="2" /> Rara vez<br />
+                  <input type="radio" name="preg1" value="3" /> A veces<br />
+                  <input type="radio" name="preg1" value="3" /> A menudo<br />
+                  <input type="radio" name="preg1" value="3" /> siempre<br />
+                </div>
+                <div class="pregunta">17.- Toma decisiones de manera oportuna, incluso en circunstancias inciertas.
+                    <br />
+                </div>
+                <div class="respuestas">
+                  <input type="radio" name="preg1" value="1" /> Nunca<br />
+                  <input type="radio" name="preg1" value="2" /> Rara vez<br />
+                  <input type="radio" name="preg1" value="3" /> A veces<br />
+                  <input type="radio" name="preg1" value="3" /> A menudo<br />
+                  <input type="radio" name="preg1" value="3" /> siempre<br />
+                </div>
+                 <div class="pregunta">18.- Desarrolla en los empleados la conciencia del trabajo en equipo, consolidando y promoviendo en ellos la lealtad personal y grupal.<br />
+                </div>
+                <div class="respuestas">
+                  <input type="radio" name="preg1" value="1" /> Nunca<br />
+                  <input type="radio" name="preg1" value="2" /> Rara vez<br />
+                  <input type="radio" name="preg1" value="3" /> A veces<br />
+                  <input type="radio" name="preg1" value="3" /> A menudo<br />
+                  <input type="radio" name="preg1" value="3" /> siempre<br />
+                </div>
+                <div class="pregunta">19.- Reconoce la importancia de la comunicación directa y responde a la retroalimenta ción con sus subordinados.<br />
+                </div>
+                <div class="respuestas">
+                  <input type="radio" name="preg1" value="1" /> Nunca<br />
+                  <input type="radio" name="preg1" value="2" /> Rara vez<br />
+                  <input type="radio" name="preg1" value="3" /> A veces<br />
+                  <input type="radio" name="preg1" value="3" /> A menudo<br />
+                  <input type="radio" name="preg1" value="3" /> siempre<br />
+                </div>
+                <div class="pregunta">20.- Asigna responsabilidades de manera equitativa a sus subordinados, realizando seguimiento y control de las mismas.<br />
+                </div>
+                <div class="respuestas">
+                  <input type="radio" name="preg1" value="1" /> Nunca<br />
+                  <input type="radio" name="preg1" value="2" /> Rara vez<br />
+                  <input type="radio" name="preg1" value="3" /> A veces<br />
+                  <input type="radio" name="preg1" value="3" /> A menudo<br />
+                  <input type="radio" name="preg1" value="3" /> siempre<br />
+                </div>
+               
+                
+           </div>
+             
+
+            <div class="form-group"></div>
+                <div class="row">
+                 
+                
+              
+                    <div button type="submit" class="btn btn-success btn-lg btn-block">ENVIAR</button> </div>
+                        	
+            </div>
+
+          
+
+
+         
+
+        </form>
+        
+    
+    </body></html>
+
+
+
+
+
+  
